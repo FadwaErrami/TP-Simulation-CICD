@@ -23,6 +23,5 @@ def test_est_admis():
     assert est_admis(12) is True
     assert est_admis(8) is False    
 
-
 def test_calculer_moyenne():
-    assert calculer_moyenne([12, 14, 16]) == 20   # ← valeur fausse
+    assert calculer_moyenne([12, 14, 16]) == 14
